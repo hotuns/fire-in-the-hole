@@ -1,0 +1,22 @@
+{
+    "165ec260dd4": {
+        "path": "../resource/eui_skins/test.ts",
+        "class": "test",
+        "parentPath": ""
+    },
+    "165f6e06b8b": {
+        "path": "game/Door.ts",
+        "class": "Door",
+        "parentPath": ""
+    },
+    "165f7115a2b": {
+        "path": "game/test.ts",
+        "class": "test",
+        "parentPath": ""
+    },
+    "165fac52d30": {
+        "path": "game/GameScene.ts",
+        "class": "GameScene",
+        "parentPath": ""
+    }
+}

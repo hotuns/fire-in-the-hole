@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="tip">
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="500" />
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" rotation="{335.13}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="100" />
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{356.23}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="50" />
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{11.6}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="100" />
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{30.14}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150" />
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{8.12}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="100" />
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{0.53}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:Wait duration="250" />
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{271}" y="{380}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{568}" x="{390}" />
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{121}" />
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{273}" />
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{1.5}" scaleY="{1.5}" alpha="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1800" />
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1500" />
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" scaleX="{0.5}" scaleY="{0.5}" y="{230}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{114}" scaleX="{0.7}" scaleY="{0.7}" />
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50" />
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="165fac52d30"></w:Config>
+	<e:Image source="Piso-hd_png" x="0" y="0" locked="true" />
+	<e:Image source="GameScene-hd_json.GameScene_Limite" x="0" y="785.09" locked="true" />
+	<e:Image id="image" source="GameScene-hd_json.GameScene_PuestoAvanzado" x="218" y="700" locked="true" />
+	<e:Group id="gro_gameUI" x="2" y="30">
+		<e:Image source="GameScene-hd_json.GameScene_CuadroPausa" x="540.5" y="0" alpha="0.3" />
+		<e:Button id="btn_pause" label="" x="556" y="12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0"
+					         source="GameScene-hd_json.GameScene_LogoPausa" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="GameScene-hd_json.GameScene_CuadroHp" x="88" y="845" alpha="0.3" />
+		<e:Image source="GameScene-hd_json.GameScene_Corazon" x="104" y="858" />
+		<e:Image source="GameScene-hd_json.GameScene_CirculoGranada" x="0" y="824.73" anchorOffsetX="0" width="94.13"
+		         anchorOffsetY="0" height="96.27" alpha="0.3" />
+		<e:Image source="GameScene-hd_json.GameScene_CirculoRecharge" x="4" y="831" anchorOffsetX="0" width="84"
+		         anchorOffsetY="0" height="84" />
+		<e:Image source="GameScene-hd_json.GameScene_CuadroHp" x="13" y="0" alpha="0.3" />
+		<e:Image source="GameScene-hd_json.GameScene_GranadaIcon" x="34" y="8" />
+		<e:ProgressBar id="pro_exp" width="231" height="68" x="399" y="855" skinName="progressBar_Lv_skin" />
+		<e:Label id="num_bomb" text="∞" x="89.5" y="16" width="47" size="37" bold="true" textAlign="center" />
+		<e:Label id="num_hp" text="2" x="162" y="864" width="46" textAlign="center" size="36" bold="true" />
+		<e:Label text="LV ." x="461" y="874.87" bold="true" />
+		<e:Label id="num_LV" text="1" x="534" y="874.87" width="57" bold="true" />
+		<e:Label id="num_score" text="0" x="465" y="23" size="30" bold="true" width="76" height="29" textAlign="center" />
+	</e:Group>
+	<e:Rect id="mask1" width="640" height="960" x="0" y="0" strokeAlpha="1" fillAlpha="0.5" />
+	<e:Image id="tip_ready" source="GameScene-hd_json.GameScene_Ready" x="122" y="320" alpha="0" />
+	<e:Image id="tip_go" source="GameScene-hd_json.GameScene_Go" x="208" y="310" alpha="0" />
+	<e:Group id="gro_tip" x="95" y="172.09" anchorOffsetX="0" width="473.33">
+		<e:Image source="Tutorial-hd_json.Tutorial_Cuadro" x="0" y="0" />
+		<e:Image id="image0" source="Tutorial-hd_json.Tutorial_LineaTiro" x="220.17" y="300.27" rotation="348.54"
+		         anchorOffsetX="33.39" anchorOffsetY="231.34" />
+		<e:Image source="Tutorial-hd_json.Tutorial_Personaje" x="123" y="265.85" />
+		<e:Image id="image1" source="Tutorial-hd_json.Tutorial_Mano" x="313.61" y="468.39" anchorOffsetX="60.61"
+		         anchorOffsetY="48.48" />
+		<e:Image id="image3" source="Tutorial-hd_json.Tutorial_Grenade" x="218.92" y="190.47" anchorOffsetX="42.42"
+		         anchorOffsetY="63.64" />
+		<e:Image id="image2" source="Tutorial-hd_json.Tutorial_Explosion" x="169" y="67.07" />
+		<e:Button id="btn_closeTip" label="" x="395.57" y="-14.91">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="GameScene-hd_json.Enemies_Cerrar" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="gro_pause" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Button id="btn_goHome" label="" x="48.5" y="415">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0"
+					         source="GameScene-hd_json.GameScene_BotonHome" source.down="GameScene-hd_json.GameScene_BotonHomeHold" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_continue" label="" x="456" y="415">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0"
+					         source="GameScene-hd_json.GameScene_BotonResume" source.down="GameScene-hd_json.GameScene_BotonResumeHold" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:ToggleButton id="tbtn_sound" label="" x="242.5" y="415">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="90%" height="90%" horizontalCenter="0" verticalCenter="0"
+					         source="GameScene-hd_json.GameScene_BotonSoundOn" source.down="GameScene-hd_json.GameScene_BotonSoundOff" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:Image source="GameScene-hd_json.GameScene_PauseTexto" x="214.5" y="216" />
+	</e:Group>
+	<e:Group id="gro_over" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image source="GameScene-hd_json.GameScene_CuadroPuntajes" x="143" y="512" />
+		<e:Image source="GameScene-hd_json.GameScene_GameOverTexto" x="115" y="128" />
+		<e:Button id="btn_goHome0" label="" x="72" y="321" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0"
+					         source="GameScene-hd_json.GameScene_BotonHome" source.down="GameScene-hd_json.GameScene_BotonHomeHold" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:ToggleButton id="tbtn_sound0" label="" x="244.66" y="321" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="90%" height="90%" source="GameScene-hd_json.GameScene_BotonSoundOn"
+					         source.down="GameScene-hd_json.GameScene_BotonSoundOff" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:Button id="btn_restart" label="" x="413.5" y="321">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0"
+					         source="GameScene-hd_json.GameScene_Restart" source.down="GameScene-hd_json.GameScene_RestartHold" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="num_end_score" text="" x="303" y="536" size="40" width="129" height="35" textAlign="center" />
+		<e:Label id="num_end_top_score" text="" x="305" y="588" size="40" width="134" height="44" textAlign="center" />
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,645 @@
+{
+    "file": "GameScene-hd.png",
+    "frames": {
+        "Enemies_Barra": {
+            "x": 1694,
+            "y": 2,
+            "w": 124,
+            "h": 32,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 124,
+            "sourceH": 32
+        },
+        "Enemies_Baseball": {
+            "x": 1564,
+            "y": 272,
+            "w": 102,
+            "h": 148,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 102,
+            "sourceH": 148
+        },
+        "Enemies_Cerrar": {
+            "x": 1426,
+            "y": 36,
+            "w": 83,
+            "h": 83,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 83,
+            "sourceH": 83
+        },
+        "Enemies_Cuadro": {
+            "x": 1380,
+            "y": 666,
+            "w": 450,
+            "h": 328,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 450,
+            "sourceH": 328
+        },
+        "Enemies_CuadroBarra": {
+            "x": 1820,
+            "y": 2,
+            "w": 146,
+            "h": 32,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 146,
+            "sourceH": 32
+        },
+        "Enemies_Fast": {
+            "x": 1036,
+            "y": 272,
+            "w": 100,
+            "h": 142,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 100,
+            "sourceH": 142
+        },
+        "Enemies_Metal": {
+            "x": 1668,
+            "y": 272,
+            "w": 106,
+            "h": 148,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 106,
+            "sourceH": 148
+        },
+        "Enemies_NewBaseball": {
+            "x": 864,
+            "y": 134,
+            "w": 122,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 122,
+            "sourceH": 130
+        },
+        "Enemies_NewFast": {
+            "x": 740,
+            "y": 134,
+            "w": 122,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 122,
+            "sourceH": 130
+        },
+        "Enemies_NewMetal": {
+            "x": 988,
+            "y": 134,
+            "w": 122,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 122,
+            "sourceH": 130
+        },
+        "Enemies_NewSkate": {
+            "x": 616,
+            "y": 134,
+            "w": 122,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 122,
+            "sourceH": 130
+        },
+        "Enemies_NewTank": {
+            "x": 492,
+            "y": 134,
+            "w": 122,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 122,
+            "sourceH": 130
+        },
+        "Enemies_NewZombie": {
+            "x": 1112,
+            "y": 134,
+            "w": 122,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 122,
+            "sourceH": 130
+        },
+        "Enemies_NombreBaseball": {
+            "x": 1226,
+            "y": 2,
+            "w": 186,
+            "h": 22,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 186,
+            "sourceH": 22
+        },
+        "Enemies_NombreFast": {
+            "x": 300,
+            "y": 2,
+            "w": 126,
+            "h": 22,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 126,
+            "sourceH": 22
+        },
+        "Enemies_NombreKnight": {
+            "x": 156,
+            "y": 2,
+            "w": 142,
+            "h": 22,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 142,
+            "sourceH": 22
+        },
+        "Enemies_NombreMetal": {
+            "x": 2,
+            "y": 2,
+            "w": 130,
+            "h": 20,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 130,
+            "sourceH": 20
+        },
+        "Enemies_NombreSkate": {
+            "x": 1414,
+            "y": 2,
+            "w": 120,
+            "h": 24,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 120,
+            "sourceH": 24
+        },
+        "Enemies_NombreZombie": {
+            "x": 1076,
+            "y": 2,
+            "w": 148,
+            "h": 22,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 148,
+            "sourceH": 22
+        },
+        "Enemies_Skate": {
+            "x": 2,
+            "y": 422,
+            "w": 122,
+            "h": 174,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 122,
+            "sourceH": 174
+        },
+        "Enemies_Tank": {
+            "x": 1776,
+            "y": 272,
+            "w": 108,
+            "h": 148,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 108,
+            "sourceH": 148
+        },
+        "Enemies_Zombie": {
+            "x": 934,
+            "y": 272,
+            "w": 100,
+            "h": 140,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 100,
+            "sourceH": 140
+        },
+        "GameScene_BarraAmarilla": {
+            "x": 2,
+            "y": 36,
+            "w": 188,
+            "h": 48,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 188,
+            "sourceH": 48
+        },
+        "GameScene_BarraExp": {
+            "x": 1038,
+            "y": 36,
+            "w": 238,
+            "h": 70,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 238,
+            "sourceH": 70
+        },
+        "GameScene_BarraHpEnemigo": {
+            "x": 1620,
+            "y": 2,
+            "w": 72,
+            "h": 28,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 72,
+            "sourceH": 28
+        },
+        "GameScene_BarraRecharge": {
+            "x": 356,
+            "y": 36,
+            "w": 504,
+            "h": 60,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 504,
+            "sourceH": 60
+        },
+        "GameScene_BotonHome": {
+            "x": 1526,
+            "y": 134,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_BotonHomeHold": {
+            "x": 1368,
+            "y": 134,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_BotonResume": {
+            "x": 634,
+            "y": 272,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_BotonResumeHold": {
+            "x": 476,
+            "y": 272,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_BotonSoundOff": {
+            "x": 318,
+            "y": 272,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_BotonSoundOn": {
+            "x": 160,
+            "y": 272,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_CirculoGranada": {
+            "x": 1684,
+            "y": 36,
+            "w": 88,
+            "h": 90,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 88,
+            "sourceH": 90
+        },
+        "GameScene_CirculoRecharge": {
+            "x": 1236,
+            "y": 134,
+            "w": 130,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 130,
+            "sourceH": 130
+        },
+        "GameScene_Corazon": {
+            "x": 192,
+            "y": 36,
+            "w": 56,
+            "h": 50,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 56,
+            "sourceH": 50
+        },
+        "GameScene_Critical": {
+            "x": 862,
+            "y": 36,
+            "w": 174,
+            "h": 60,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 174,
+            "sourceH": 60
+        },
+        "GameScene_CuadroHp": {
+            "x": 1278,
+            "y": 36,
+            "w": 146,
+            "h": 76,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 146,
+            "sourceH": 76
+        },
+        "GameScene_CuadroHpEnemigo": {
+            "x": 1536,
+            "y": 2,
+            "w": 82,
+            "h": 28,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 82,
+            "sourceH": 28
+        },
+        "GameScene_CuadroPausa": {
+            "x": 1597,
+            "y": 36,
+            "w": 85,
+            "h": 85,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 85,
+            "sourceH": 85
+        },
+        "GameScene_CuadroPuntajes": {
+            "x": 126,
+            "y": 422,
+            "w": 360,
+            "h": 188,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 360,
+            "sourceH": 188
+        },
+        "GameScene_Explosion": {
+            "x": 1216,
+            "y": 422,
+            "w": 204,
+            "h": 206,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 204,
+            "sourceH": 206
+        },
+        "GameScene_GameOverTexto": {
+            "x": 1138,
+            "y": 272,
+            "w": 424,
+            "h": 143,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 424,
+            "sourceH": 143
+        },
+        "GameScene_Go": {
+            "x": 1422,
+            "y": 422,
+            "w": 236,
+            "h": 216,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 236,
+            "sourceH": 216
+        },
+        "GameScene_Granada": {
+            "x": 392,
+            "y": 134,
+            "w": 98,
+            "h": 120,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 98,
+            "sourceH": 120
+        },
+        "GameScene_GranadaIcon": {
+            "x": 250,
+            "y": 36,
+            "w": 48,
+            "h": 54,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 48,
+            "sourceH": 54
+        },
+        "GameScene_Limite": {
+            "x": 428,
+            "y": 2,
+            "w": 646,
+            "h": 22,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 646,
+            "sourceH": 22
+        },
+        "GameScene_LogoPausa": {
+            "x": 300,
+            "y": 36,
+            "w": 54,
+            "h": 58,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 54,
+            "sourceH": 58
+        },
+        "GameScene_MarcaPiso1": {
+            "x": 262,
+            "y": 134,
+            "w": 128,
+            "h": 104,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 128,
+            "sourceH": 104
+        },
+        "GameScene_MarcaPiso2": {
+            "x": 2,
+            "y": 134,
+            "w": 128,
+            "h": 104,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 128,
+            "sourceH": 104
+        },
+        "GameScene_MarcaPiso3": {
+            "x": 132,
+            "y": 134,
+            "w": 128,
+            "h": 104,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 128,
+            "sourceH": 104
+        },
+        "GameScene_MarcaPisoCritical": {
+            "x": 792,
+            "y": 272,
+            "w": 140,
+            "h": 140,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 140,
+            "sourceH": 140
+        },
+        "GameScene_Mira": {
+            "x": 1511,
+            "y": 36,
+            "w": 84,
+            "h": 84,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 84,
+            "sourceH": 84
+        },
+        "GameScene_PauseTexto": {
+            "x": 1774,
+            "y": 36,
+            "w": 211,
+            "h": 96,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 211,
+            "sourceH": 96
+        },
+        "GameScene_PuestoAvanzado": {
+            "x": 752,
+            "y": 666,
+            "w": 204,
+            "h": 260,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 204,
+            "sourceH": 260
+        },
+        "GameScene_PuntoMira": {
+            "x": 134,
+            "y": 2,
+            "w": 20,
+            "h": 20,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 20,
+            "sourceH": 20
+        },
+        "GameScene_Ready": {
+            "x": 782,
+            "y": 422,
+            "w": 432,
+            "h": 206,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 432,
+            "sourceH": 206
+        },
+        "GameScene_Restart": {
+            "x": 2,
+            "y": 272,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_RestartHold": {
+            "x": 1684,
+            "y": 134,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "GameScene_Survival": {
+            "x": 958,
+            "y": 666,
+            "w": 420,
+            "h": 282,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 420,
+            "sourceH": 282
+        },
+        "UpgradeScene_Critical": {
+            "x": 2,
+            "y": 666,
+            "w": 248,
+            "h": 242,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 248,
+            "sourceH": 242
+        },
+        "UpgradeScene_CuadroBlanco": {
+            "x": 252,
+            "y": 666,
+            "w": 248,
+            "h": 242,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 248,
+            "sourceH": 242
+        },
+        "UpgradeScene_Damage": {
+            "x": 1660,
+            "y": 422,
+            "w": 248,
+            "h": 242,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 248,
+            "sourceH": 242
+        },
+        "UpgradeScene_LevelUpgrade": {
+            "x": 488,
+            "y": 422,
+            "w": 292,
+            "h": 198,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 292,
+            "sourceH": 198
+        },
+        "UpgradeScene_Recharge": {
+            "x": 502,
+            "y": 666,
+            "w": 248,
+            "h": 242,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 248,
+            "sourceH": 242
+        }
+    }
+}

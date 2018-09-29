@@ -1,0 +1,45 @@
+{
+    "file": "Logo-hd.png",
+    "frames": {
+        "Logo_Cabeza1": {
+            "x": 2,
+            "y": 2,
+            "w": 151,
+            "h": 121,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 151,
+            "sourceH": 121
+        },
+        "Logo_Cabeza2": {
+            "x": 155,
+            "y": 2,
+            "w": 151,
+            "h": 121,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 151,
+            "sourceH": 121
+        },
+        "Logo_Teddy": {
+            "x": 2,
+            "y": 125,
+            "w": 363,
+            "h": 108,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 363,
+            "sourceH": 108
+        },
+        "Logo_Zombies": {
+            "x": 2,
+            "y": 235,
+            "w": 506,
+            "h": 220,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 506,
+            "sourceH": 220
+        }
+    }
+}

@@ -1,0 +1,374 @@
+{
+	"groups": [
+		{
+			"keys": "BordeDer-hd_png,BordeIzq-hd_png,CirculoCarga-hd_png,LoadingScene-hd_json,LoadingScene-hd_png,Metal-hd_png,RotacionMovil-hd_png,Piso-hd_png,Logo-hd_json,Logo-hd_png,LogoData-hd_json",
+			"name": "loading"
+		},
+		{
+			"keys": "BordeDer-hd_png,BordeIzq-hd_png,CirculoCarga-hd_png,LoadingScene-hd_json,LoadingScene-hd_png,Metal-hd_png,RotacionMovil-hd_png,description_json,Tutorial-hd_json,Tutorial-hd_png,TutorialData-hd_json,GameScene-hd_json,GameScene-hd_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/Animacion/Bear_Skate/BearSkate-hd.json",
+			"type": "json",
+			"name": "BearSkate-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Skate/BearSkate-hd.png",
+			"type": "image",
+			"name": "BearSkate-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Bear_Skate/BearSkateData-hd.json",
+			"type": "json",
+			"name": "BearSkateData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Skate/BearSkateIn-hd.json",
+			"type": "json",
+			"name": "BearSkateIn-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Skate/BearSkateIn-hd.png",
+			"type": "image",
+			"name": "BearSkateIn-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Bear_Skate/BearSkateInData-hd.json",
+			"type": "json",
+			"name": "BearSkateInData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Tank/BearTank-hd.json",
+			"type": "json",
+			"name": "BearTank-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Tank/BearTank-hd.png",
+			"type": "image",
+			"name": "BearTank-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Bear_Tank/BearTankData-hd.json",
+			"type": "json",
+			"name": "BearTankData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Zombie/BearZombie-hd.json",
+			"type": "json",
+			"name": "BearZombie-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Zombie/BearZombie-hd.png",
+			"type": "image",
+			"name": "BearZombie-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Bear_Zombie/BearZombieData-hd.json",
+			"type": "json",
+			"name": "BearZombieData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/PjBear_LevelUp/PjBearLevelUpData-hd.json",
+			"type": "json",
+			"name": "PjBearLevelUpData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/PjBear_LevelUp/PjBear_LevelUp-hd.json",
+			"type": "json",
+			"name": "PjBear_LevelUp-hd_json"
+		},
+		{
+			"url": "assets/Animacion/PjBear_LevelUp/PjBear_LevelUp-hd.png",
+			"type": "image",
+			"name": "PjBear_LevelUp-hd_png"
+		},
+		{
+			"url": "assets/Animacion/PjBear_LevelUp/Tienda_FuenteVerde-hd.fnt",
+			"type": "font",
+			"name": "Tienda_FuenteVerde-hd_fnt"
+		},
+		{
+			"url": "assets/Animacion/Tutorial/Tutorial-hd.json",
+			"type": "sheet",
+			"name": "Tutorial-hd_json",
+			"subkeys": "Tutorial_Cuadro,Tutorial_Explosion,Tutorial_Grenade,Tutorial_LineaTiro,Tutorial_Mano,Tutorial_Personaje,Tutorial_Puntero"
+		},
+		{
+			"url": "assets/Animacion/Tutorial/Tutorial-hd.png",
+			"type": "image",
+			"name": "Tutorial-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Tutorial/TutorialData-hd.json",
+			"type": "json",
+			"name": "TutorialData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Baseball/BearBaseball-hd.json",
+			"type": "json",
+			"name": "BearBaseball-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Baseball/BearBaseball-hd.png",
+			"type": "image",
+			"name": "BearBaseball-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Bear_Baseball/BearBaseballData-hd.json",
+			"type": "json",
+			"name": "BearBaseballData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_FastZombie/BearFast-hd.json",
+			"type": "json",
+			"name": "BearFast-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_FastZombie/BearFast-hd.png",
+			"type": "image",
+			"name": "BearFast-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Bear_FastZombie/BearFastData-hd.json",
+			"type": "json",
+			"name": "BearFastData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Metal/BearMetalData-hd.json",
+			"type": "json",
+			"name": "BearMetalData-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Metal/MetalBear-hd.json",
+			"type": "json",
+			"name": "MetalBear-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Bear_Metal/MetalBear-hd.png",
+			"type": "image",
+			"name": "MetalBear-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Pj_Bear/Bear-hd.json",
+			"type": "json",
+			"name": "Bear-hd_json"
+		},
+		{
+			"url": "assets/Animacion/Pj_Bear/Bear-hd.png",
+			"type": "image",
+			"name": "Bear-hd_png"
+		},
+		{
+			"url": "assets/Animacion/Pj_Bear/BearData-hd.json",
+			"type": "json",
+			"name": "BearData-hd_json"
+		},
+		{
+			"url": "assets/GameScene/NivelHabilidad-hd.fnt",
+			"type": "font",
+			"name": "NivelHabilidad-hd_fnt"
+		},
+		{
+			"url": "assets/GameScene/GameScene_Hits-hd.fnt",
+			"type": "font",
+			"name": "GameScene_Hits-hd_fnt"
+		},
+		{
+			"url": "assets/GameScene/GameScene_NumerosPuntajes-hd.fnt",
+			"type": "font",
+			"name": "GameScene_NumerosPuntajes-hd_fnt"
+		},
+		{
+			"url": "assets/GameScene/GameScene_Hits-hd.png",
+			"type": "image",
+			"name": "GameScene_Hits-hd_png"
+		},
+		{
+			"url": "assets/GameScene/Piso-hd.png",
+			"type": "image",
+			"name": "Piso-hd_png"
+		},
+		{
+			"url": "assets/GameScene/NivelHabilidad-hd.png",
+			"type": "image",
+			"name": "NivelHabilidad-hd_png"
+		},
+		{
+			"url": "assets/GameScene/GameScene_NumerosPuntajes-hd.png",
+			"type": "image",
+			"name": "GameScene_NumerosPuntajes-hd_png"
+		},
+		{
+			"url": "assets/GameScene/Fondo_Sombra-hd.png",
+			"type": "image",
+			"name": "Fondo_Sombra-hd_png"
+		},
+		{
+			"url": "assets/GameScene/CuadroBlanco.png",
+			"type": "image",
+			"name": "CuadroBlanco_png"
+		},
+		{
+			"url": "assets/GameScene/GameScene-hd.png",
+			"type": "image",
+			"name": "GameScene-hd_png"
+		},
+		{
+			"url": "assets/GameScene/GameScene_Niveles-hd.png",
+			"type": "image",
+			"name": "GameScene_Niveles-hd_png"
+		},
+		{
+			"url": "assets/GameScene/GameScene_Score-hd.png",
+			"type": "image",
+			"name": "GameScene_Score-hd_png"
+		},
+		{
+			"url": "assets/GameScene/Rojo.png",
+			"type": "image",
+			"name": "Rojo_png"
+		},
+		{
+			"url": "assets/GameScene/GameScene_Niveles-hd.fnt",
+			"type": "font",
+			"name": "GameScene_Niveles-hd_fnt"
+		},
+		{
+			"url": "assets/GameScene/GameScene_Score-hd.fnt",
+			"type": "font",
+			"name": "GameScene_Score-hd_fnt"
+		},
+		{
+			"url": "assets/LoadingScene/Metal-hd.png",
+			"type": "image",
+			"name": "Metal-hd_png"
+		},
+		{
+			"url": "assets/LoadingScene/RotacionMovil-hd.png",
+			"type": "image",
+			"name": "RotacionMovil-hd_png"
+		},
+		{
+			"url": "assets/LoadingScene/BordeIzq-hd.png",
+			"type": "image",
+			"name": "BordeIzq-hd_png"
+		},
+		{
+			"url": "assets/LoadingScene/CirculoCarga-hd.png",
+			"type": "image",
+			"name": "CirculoCarga-hd_png"
+		},
+		{
+			"url": "assets/LoadingScene/LoadingScene-hd.png",
+			"type": "image",
+			"name": "LoadingScene-hd_png"
+		},
+		{
+			"url": "assets/LoadingScene/BordeDer-hd.png",
+			"type": "image",
+			"name": "BordeDer-hd_png"
+		},
+		{
+			"url": "assets/LoadingScene/LoadingScene-hd.json",
+			"type": "sheet",
+			"name": "LoadingScene-hd_json",
+			"subkeys": "LoadingScene_GreenBar,LoadingScene_LoadingBar,LoadingScene_PlayItOn,LoadingScene_StudioPangeaSplash,LogoCortina"
+		},
+		{
+			"url": "assets/Logo/Logo-hd.json",
+			"type": "sheet",
+			"name": "Logo-hd_json",
+			"subkeys": "Logo_Cabeza1,Logo_Cabeza2,Logo_Teddy,Logo_Zombies"
+		},
+		{
+			"url": "assets/Logo/Logo-hd.png",
+			"type": "image",
+			"name": "Logo-hd_png"
+		},
+		{
+			"url": "assets/Logo/LogoData-hd.json",
+			"type": "json",
+			"name": "LogoData-hd_json"
+		},
+		{
+			"url": "assets/MenuScene/CuadroNegro-hd.png",
+			"type": "image",
+			"name": "CuadroNegro-hd_png"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_FuenteObjeto-hd.fnt",
+			"type": "font",
+			"name": "Tienda_FuenteObjeto-hd_fnt"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_FuenteObjeto-hd.png",
+			"type": "image",
+			"name": "Tienda_FuenteObjeto-hd_png"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_FuenteRoja-hd.fnt",
+			"type": "font",
+			"name": "Tienda_FuenteRoja-hd_fnt"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_FuenteRoja-hd.png",
+			"type": "image",
+			"name": "Tienda_FuenteRoja-hd_png"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_FuenteVerde-hd.fnt",
+			"type": "font",
+			"name": "Tienda_FuenteVerde-hd2_fnt"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_FuenteVerde-hd.png",
+			"type": "image",
+			"name": "Tienda_FuenteVerde-hd_png"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_Texto-hd.fnt",
+			"type": "font",
+			"name": "Tienda_Texto-hd_fnt"
+		},
+		{
+			"url": "assets/MenuScene/Fuentes/Tienda_Texto-hd.png",
+			"type": "image",
+			"name": "Tienda_Texto-hd_png"
+		},
+		{
+			"url": "assets/MenuScene/MenuScene-hd.json",
+			"type": "sheet",
+			"name": "MenuScene-hd_json",
+			"subkeys": "MenuScene_AvisoTienda,MenuScene_BotonTienda,MenuScene_Credits,MenuScene_CreditsHold,MenuScene_CreditsInfo,MenuScene_DestelloTienda,MenuScene_LogoGrenades,MenuScene_Play,MenuScene_PlayHold,MenuScene_Sound,MenuScene_SoundOff,Tienda_Back,Tienda_BotonHome,Tienda_BotonHomeHold,Tienda_Caparazon,Tienda_Cuadro,Tienda_Gallina,Tienda_GenkyGama,Tienda_Granada,Tienda_JustinBiebear,Tienda_JustinBiebear2,Tienda_KawaiBanana,Tienda_MolotovCola,Tienda_Next,Tienda_PimpedGrenade,Tienda_Poo,Tienda_Select,Tienda_Selected,Tienda_Unlock,Tienda_Wokia,Tienda_ZombieBall,Tienda_ZombieBird"
+		},
+		{
+			"url": "assets/MenuScene/MenuScene-hd.png",
+			"type": "image",
+			"name": "MenuScene-hd_png"
+		},
+		{
+			"url": "json/levels.json",
+			"type": "json",
+			"name": "levels_json"
+		},
+		{
+			"url": "json/properties.json",
+			"type": "json",
+			"name": "properties_json"
+		},
+		{
+			"url": "assets/GameScene/GameScene-hd.json",
+			"type": "sheet",
+			"name": "GameScene-hd_json",
+			"subkeys": "Enemies_Barra,Enemies_Baseball,Enemies_Cerrar,Enemies_Cuadro,Enemies_CuadroBarra,Enemies_Fast,Enemies_Metal,Enemies_NewBaseball,Enemies_NewFast,Enemies_NewMetal,Enemies_NewSkate,Enemies_NewTank,Enemies_NewZombie,Enemies_NombreBaseball,Enemies_NombreFast,Enemies_NombreKnight,Enemies_NombreMetal,Enemies_NombreSkate,Enemies_NombreZombie,Enemies_Skate,Enemies_Tank,Enemies_Zombie,GameScene_BarraAmarilla,GameScene_BarraExp,GameScene_BarraHpEnemigo,GameScene_BarraRecharge,GameScene_BotonHome,GameScene_BotonHomeHold,GameScene_BotonResume,GameScene_BotonResumeHold,GameScene_BotonSoundOff,GameScene_BotonSoundOn,GameScene_CirculoGranada,GameScene_CirculoRecharge,GameScene_Corazon,GameScene_Critical,GameScene_CuadroHp,GameScene_CuadroHpEnemigo,GameScene_CuadroPausa,GameScene_CuadroPuntajes,GameScene_Explosion,GameScene_GameOverTexto,GameScene_Go,GameScene_Granada,GameScene_GranadaIcon,GameScene_Limite,GameScene_LogoPausa,GameScene_MarcaPiso1,GameScene_MarcaPiso2,GameScene_MarcaPiso3,GameScene_MarcaPisoCritical,GameScene_Mira,GameScene_PauseTexto,GameScene_PuestoAvanzado,GameScene_PuntoMira,GameScene_Ready,GameScene_Restart,GameScene_RestartHold,GameScene_Survival,UpgradeScene_Critical,UpgradeScene_CuadroBlanco,UpgradeScene_Damage,UpgradeScene_LevelUpgrade,UpgradeScene_Recharge"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		}
+	]
+}

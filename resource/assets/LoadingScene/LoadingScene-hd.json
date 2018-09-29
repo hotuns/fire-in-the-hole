@@ -1,0 +1,55 @@
+{
+	"file": "LoadingScene-hd.png",
+	"frames": {
+		"LoadingScene_GreenBar": {
+			"x": 2,
+			"y": 2,
+			"w": 464,
+			"h": 36,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 464,
+			"sourceH": 36
+		},
+		"LoadingScene_LoadingBar": {
+			"x": 468,
+			"y": 2,
+			"w": 484,
+			"h": 36,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 484,
+			"sourceH": 36
+		},
+		"LoadingScene_PlayItOn": {
+			"x": 2,
+			"y": 40,
+			"w": 263,
+			"h": 169,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 263,
+			"sourceH": 169
+		},
+		"LoadingScene_StudioPangeaSplash": {
+			"x": 267,
+			"y": 40,
+			"w": 260,
+			"h": 304,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 260,
+			"sourceH": 304
+		},
+		"LogoCortina": {
+			"x": 529,
+			"y": 40,
+			"w": 396,
+			"h": 442,
+			"offX": 0,
+			"offY": 0,
+			"sourceW": 396,
+			"sourceH": 442
+		}
+	}
+}

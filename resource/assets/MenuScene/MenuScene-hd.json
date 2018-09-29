@@ -1,0 +1,325 @@
+{
+    "file": "MenuScene-hd.png",
+    "frames": {
+        "MenuScene_AvisoTienda": {
+            "x": 2,
+            "y": 2,
+            "w": 62,
+            "h": 62,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 62,
+            "sourceH": 62
+        },
+        "MenuScene_BotonTienda": {
+            "x": 2,
+            "y": 280,
+            "w": 156,
+            "h": 156,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 156
+        },
+        "MenuScene_Credits": {
+            "x": 266,
+            "y": 124,
+            "w": 134,
+            "h": 134,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 134,
+            "sourceH": 134
+        },
+        "MenuScene_CreditsHold": {
+            "x": 538,
+            "y": 124,
+            "w": 134,
+            "h": 134,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 134,
+            "sourceH": 134
+        },
+        "MenuScene_CreditsInfo": {
+            "x": 712,
+            "y": 484,
+            "w": 602,
+            "h": 496,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 602,
+            "sourceH": 496
+        },
+        "MenuScene_DestelloTienda": {
+            "x": 160,
+            "y": 280,
+            "w": 156,
+            "h": 156,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 156
+        },
+        "MenuScene_LogoGrenades": {
+            "x": 66,
+            "y": 2,
+            "w": 326,
+            "h": 80,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 326,
+            "sourceH": 80
+        },
+        "MenuScene_Play": {
+            "x": 524,
+            "y": 280,
+            "w": 214,
+            "h": 158,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 214,
+            "sourceH": 158
+        },
+        "MenuScene_PlayHold": {
+            "x": 740,
+            "y": 280,
+            "w": 214,
+            "h": 158,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 214,
+            "sourceH": 158
+        },
+        "MenuScene_Sound": {
+            "x": 674,
+            "y": 124,
+            "w": 134,
+            "h": 134,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 134,
+            "sourceH": 134
+        },
+        "MenuScene_SoundOff": {
+            "x": 402,
+            "y": 124,
+            "w": 134,
+            "h": 134,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 134,
+            "sourceH": 134
+        },
+        "Tienda_Back": {
+            "x": 1126,
+            "y": 124,
+            "w": 140,
+            "h": 140,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 140,
+            "sourceH": 140
+        },
+        "Tienda_BotonHome": {
+            "x": 810,
+            "y": 124,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "Tienda_BotonHomeHold": {
+            "x": 968,
+            "y": 124,
+            "w": 156,
+            "h": 136,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 156,
+            "sourceH": 136
+        },
+        "Tienda_Caparazon": {
+            "x": 1219,
+            "y": 2,
+            "w": 148,
+            "h": 116,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 148,
+            "sourceH": 116
+        },
+        "Tienda_Cuadro": {
+            "x": 306,
+            "y": 484,
+            "w": 404,
+            "h": 372,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 404,
+            "sourceH": 372
+        },
+        "Tienda_Gallina": {
+            "x": 318,
+            "y": 280,
+            "w": 204,
+            "h": 156,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 204,
+            "sourceH": 156
+        },
+        "Tienda_GenkyGama": {
+            "x": 2,
+            "y": 484,
+            "w": 206,
+            "h": 206,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 206,
+            "sourceH": 206
+        },
+        "Tienda_Granada": {
+            "x": 956,
+            "y": 280,
+            "w": 128,
+            "h": 158,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 128,
+            "sourceH": 158
+        },
+        "Tienda_JustinBiebear": {
+            "x": 1086,
+            "y": 280,
+            "w": 112,
+            "h": 160,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 112,
+            "sourceH": 160
+        },
+        "Tienda_JustinBiebear2": {
+            "x": 1288,
+            "y": 280,
+            "w": 150,
+            "h": 200,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 150,
+            "sourceH": 200
+        },
+        "Tienda_KawaiBanana": {
+            "x": 1200,
+            "y": 280,
+            "w": 86,
+            "h": 190,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 86,
+            "sourceH": 190
+        },
+        "Tienda_MolotovCola": {
+            "x": 1440,
+            "y": 280,
+            "w": 70,
+            "h": 202,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 70,
+            "sourceH": 202
+        },
+        "Tienda_Next": {
+            "x": 1268,
+            "y": 124,
+            "w": 140,
+            "h": 140,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 140,
+            "sourceH": 140
+        },
+        "Tienda_PimpedGrenade": {
+            "x": 1410,
+            "y": 124,
+            "w": 118,
+            "h": 154,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 118,
+            "sourceH": 154
+        },
+        "Tienda_Poo": {
+            "x": 2,
+            "y": 124,
+            "w": 128,
+            "h": 130,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 128,
+            "sourceH": 130
+        },
+        "Tienda_Select": {
+            "x": 959,
+            "y": 2,
+            "w": 258,
+            "h": 110,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 258,
+            "sourceH": 110
+        },
+        "Tienda_Selected": {
+            "x": 699,
+            "y": 2,
+            "w": 258,
+            "h": 110,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 258,
+            "sourceH": 110
+        },
+        "Tienda_Unlock": {
+            "x": 394,
+            "y": 2,
+            "w": 303,
+            "h": 105,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 303,
+            "sourceH": 105
+        },
+        "Tienda_Wokia": {
+            "x": 210,
+            "y": 484,
+            "w": 94,
+            "h": 212,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 94,
+            "sourceH": 212
+        },
+        "Tienda_ZombieBall": {
+            "x": 132,
+            "y": 124,
+            "w": 132,
+            "h": 132,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 132,
+            "sourceH": 132
+        },
+        "Tienda_ZombieBird": {
+            "x": 1369,
+            "y": 2,
+            "w": 158,
+            "h": 120,
+            "offX": 0,
+            "offy": 0,
+            "sourceW": 158,
+            "sourceH": 120
+        }
+    }
+}

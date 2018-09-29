@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoorSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="165f6e06b8b"></w:Config>
+	<e:Group id="gro_left" width="320" height="960" x="-320" y="0" anchorOffsetY="0">
+		<e:Image source="Metal-hd_png" x="0" y="0" />
+		<e:Image source="Metal-hd_png" x="0" y="224" />
+		<e:Image source="Metal-hd_png" x="0" y="480" />
+		<e:Image source="Metal-hd_png" x="0" y="728" />
+		<e:Group width="64" x="256" anchorOffsetX="0" anchorOffsetY="0" height="960" y="0">
+			<e:Image source="BordeIzq-hd_png" x="-2" y="-15" scaleX="2" scaleY="2" width="32" />
+			<e:Image source="BordeIzq-hd_png" x="-65" y="239" scaleX="2" scaleY="2" width="32" />
+			<e:Image source="BordeIzq-hd_png" x="-55" y="249" scaleX="2" scaleY="2" width="32" />
+			<e:Image source="BordeIzq-hd_png" x="-45" y="259" scaleX="2" scaleY="2" width="32" />
+			<e:Image source="BordeIzq-hd_png" x="-35" y="269" scaleX="2" scaleY="2" width="32" />
+			<e:Image source="BordeIzq-hd_png" x="-25" y="279" scaleX="2" scaleY="2" width="32" />
+			<e:Image source="BordeIzq-hd_png" x="-15" y="289" scaleX="2" scaleY="2" width="32" />
+			<e:Image source="BordeIzq-hd_png" x="-5" y="299" scaleX="2" scaleY="2" width="32" />
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="gro_right" width="320" height="960" x="640" y="0" anchorOffsetY="0">
+		<e:Group width="64" x="0" anchorOffsetX="0" anchorOffsetY="0" height="960" y="0">
+			<e:Image x="-65" y="239" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:Image x="-65" y="239" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:Image x="-55" y="249" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:Image x="-45" y="259" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:Image x="-35" y="269" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:Image x="-25" y="279" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:Image x="-15" y="289" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:Image x="-5" y="299" scaleX="2" scaleY="2" width="32" source="BordeDer-hd_png" />
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:Group>
+		<e:Image source="Metal-hd_png" x="64" y="0" />
+		<e:Image source="Metal-hd_png" x="64" y="256" scaleX="1" scaleY="1" />
+		<e:Image source="Metal-hd_png" x="64" y="512" scaleX="1" scaleY="1" />
+		<e:Image source="Metal-hd_png" x="64" y="768" scaleX="1" scaleY="1" />
+		<e:Image source="LoadingScene-hd_json.LogoCortina" x="-192" y="227" />
+	</e:Group>
+</e:Skin>

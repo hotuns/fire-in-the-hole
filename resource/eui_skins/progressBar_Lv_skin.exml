@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="progressBar_Lv_skin" width="238" height="70" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="GameScene-hd_json.GameScene_BarraExp" x="0" y="0" alpha="0.3" />
+    <e:Image id="thumb" source="GameScene-hd_json.GameScene_BarraAmarilla" x="25" y="11" />
+</e:Skin>
