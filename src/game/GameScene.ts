@@ -44,6 +44,9 @@ class GameScene extends eui.Component implements eui.UIComponent {
 	/**游戏等级 */
 	public gameLv: number
 
+	//心跳开始的时间
+	public tickTime: number
+
 	public constructor() {
 		super();
 	}
@@ -101,54 +104,64 @@ class GameScene extends eui.Component implements eui.UIComponent {
 
 				// 添加主角到舞台
 				this.addChildAt(this.myBear, this.numChildren - 3)
+				// 心跳开始
 				egret.startTick(this.updata, this)
+				this.tickTime = egret.getTimer()
 			})
 		})
 
-		// 创建敌人
-		this.createEnemy()
-
 		this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.touchBegin, this)
-		this.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.touchMove, this)
-		this.addEventListener(egret.TouchEvent.TOUCH_END, this.touchEnd, this)
-
 
 	}
 
-	/**创建敌人 */
+	/**创建敌人,添加到数组 */
 	private createEnemy() {
-		this.enemysArr.push(Enemy.produce({ x: 50, y: 0, type: 'normal' }))
-		this.enemysArr.push(Enemy.produce({ x: 200, y: 0, type: 'normal' }))
-		this.enemysArr.push(Enemy.produce({ x: 400, y: 0, type: 'normal' }))
-		this.enemysArr.forEach((item) => {
-			this.addChildAt(item, this.numChildren - 9)
+		let enemyType: number = Math.floor(Math.random() * 6)
+		let enemyX: number = Math.floor(Math.random() * 640 + 1)
+		let enmeyY: number = -175
+		enemyX = Math.max(enemyX, 0)
+		enemyX = Math.min(enemyX, this.stage.stageWidth - 122)
+		let newEnemy = Enemy.produce({ x: enemyX, y: enmeyY, type: enemyType })
 
-		})
+		this.addChildAt(newEnemy, this.numChildren - 10)
+		this.enemysArr.push(newEnemy)
 	}
 
 	/**更新 */
-	private updata(): boolean {
+	private updata(timeStamp): boolean {
 		this.num_hp.text = this.myBear.hp.toString()
 		this.num_score.text = this.scoreText.toString()
+
+		if (timeStamp - this.tickTime >= 3000) {
+			this.tickTime = timeStamp
+			// 创建敌人
+			this.createEnemy()
+		}
+
 		// 敌人移动
 		if (this.enemysArr.length > 0) {
 			for (let i = this.enemysArr.length - 1; i >= 0; i--) {
 				let item = this.enemysArr[i]
-				console.log(item, this.enemysArr.length);
-
-				// 判断掉血
-				if (item.y === 720) {
-					// this.myBear.hp -= 1
-					this.gameOver()
-				}
-				// 超出屏幕删除
-				if (item.y >= this.stage.stageHeight) {
-					console.log('超出屏幕');
+				// 判断敌人血量
+				if (item.hp > 0) {
+					// 判断是否抵达
+					if (item.y === 720) {
+						// this.myBear.hp -= 1
+						this.gameOver()
+					}
+					// 超出屏幕删除
+					if (item.y >= this.stage.stageHeight) {
+						console.log('超出屏幕');
+						item.goDie()
+						this.enemysArr.splice(i, 1)
+						continue
+					}
+					item.move()
+				} else {
 					item.goDie()
 					this.enemysArr.splice(i, 1)
-					continue
+					this.scoreText += 1
 				}
-				item.move()
 			}
 		}
 
@@ -164,6 +177,9 @@ class GameScene extends eui.Component implements eui.UIComponent {
 	private isMove: boolean
 	/**滑动开始 */
 	private touchBegin(e: egret.TouchEvent) {
+		this.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.touchMove, this)
+		this.addEventListener(egret.TouchEvent.TOUCH_END, this.touchEnd, this)
+
 		if (e.target === this.myBear) {
 			this.isMove = true
 			this.addChild(this.aimImg)
@@ -248,22 +264,25 @@ class GameScene extends eui.Component implements eui.UIComponent {
 		this.enemysArr.forEach((item) => {
 			item.goDie()
 		})
+		this.enemysArr = []
+		this.setChildIndex(this.mask1, this.numChildren - 1)
 		this.mask1.visible = true
+		this.setChildIndex(this.gro_over, this.numChildren - 1)
 		this.gro_over.visible = true
 		this.num_end_score.text = this.scoreText.toString()
 		this.btn_restart.addEventListener(egret.TouchEvent.TOUCH_TAP, this.reStart, this)
-
 	}
 
 	/**游戏暂停 */
 	private gamePause() {
 		egret.stopTick(this.updata, this)
-		console.log(this.tweenArr);
 		this.tweenArr.forEach((item: egret.Tween) => {
 			item.setPaused(true)
 		})
 
+		this.setChildIndex(this.mask1, this.numChildren - 1)
 		this.mask1.visible = true
+		this.setChildIndex(this.gro_pause, this.numChildren - 1)
 		this.gro_pause.visible = true
 
 		this.btn_continue.addEventListener(egret.TouchEvent.TOUCH_TAP, this.gameContinue, this)
@@ -282,8 +301,9 @@ class GameScene extends eui.Component implements eui.UIComponent {
 
 	/**重新开始 */
 	private reStart() {
-		this.gro_over.visible = false
+		console.log('重新开始');
 
+		this.gro_over.visible = false
 		this.init()
 	}
 }

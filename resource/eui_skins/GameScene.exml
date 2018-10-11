@@ -124,10 +124,10 @@
 		</tween:TweenGroup>
 	</w:Declarations>
 	<w:Config id="165fac52d30"></w:Config>
-	<e:Image source="Piso-hd_png" x="0" y="0" locked="true" />
-	<e:Image source="GameScene-hd_json.GameScene_Limite" x="0" y="785.09" locked="true" />
-	<e:Image id="image" source="GameScene-hd_json.GameScene_PuestoAvanzado" x="218" y="700" locked="true" />
-	<e:Group id="gro_gameUI" x="2" y="30">
+	<e:Image source="Piso-hd_png" x="0" y="0" />
+	<e:Image source="GameScene-hd_json.GameScene_Limite" x="0" y="785.09" />
+	<e:Image id="image" source="GameScene-hd_json.GameScene_PuestoAvanzado" x="218" y="700" />
+	<e:Group id="gro_gameUI" x="2" y="6" anchorOffsetY="0" height="951">
 		<e:Image source="GameScene-hd_json.GameScene_CuadroPausa" x="540.5" y="0" alpha="0.3" />
 		<e:Button id="btn_pause" label="" x="556" y="12">
 			<e:skinName>
@@ -156,7 +156,7 @@
 	<e:Rect id="mask1" width="640" height="960" x="0" y="0" strokeAlpha="1" fillAlpha="0.5" />
 	<e:Image id="tip_ready" source="GameScene-hd_json.GameScene_Ready" x="122" y="320" alpha="0" />
 	<e:Image id="tip_go" source="GameScene-hd_json.GameScene_Go" x="208" y="310" alpha="0" />
-	<e:Group id="gro_tip" x="95" y="172.09" anchorOffsetX="0" width="473.33">
+	<e:Group id="gro_tip" x="95" y="172.09" anchorOffsetX="0" width="477.33" height="619">
 		<e:Image source="Tutorial-hd_json.Tutorial_Cuadro" x="0" y="0" />
 		<e:Image id="image0" source="Tutorial-hd_json.Tutorial_LineaTiro" x="220.17" y="300.27" rotation="348.54"
 		         anchorOffsetX="33.39" anchorOffsetY="231.34" />
@@ -166,7 +166,7 @@
 		<e:Image id="image3" source="Tutorial-hd_json.Tutorial_Grenade" x="218.92" y="190.47" anchorOffsetX="42.42"
 		         anchorOffsetY="63.64" />
 		<e:Image id="image2" source="Tutorial-hd_json.Tutorial_Explosion" x="169" y="67.07" />
-		<e:Button id="btn_closeTip" label="" x="395.57" y="-14.91">
+		<e:Button id="btn_closeTip" label="" x="396.57" y="-10.91" width="79">
 			<e:skinName>
 				<e:Skin states="up,down,disabled">
 					<e:Image width="100%" height="100%" source="GameScene-hd_json.Enemies_Cerrar" />

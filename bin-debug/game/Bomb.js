@@ -51,9 +51,8 @@ var Bomb = (function (_super) {
         for (var i = SceneManager.instance.gamescene.enemysArr.length - 1; i >= 0; i--) {
             var theEnemy = SceneManager.instance.gamescene.enemysArr[i];
             if (SceneManager.hitTest(theEnemy, this)) {
-                SceneManager.instance.gamescene.enemysArr.splice(i, 1);
-                theEnemy.goDie();
-                SceneManager.instance.gamescene.scoreText += 1;
+                console.log(theEnemy.hp);
+                theEnemy.hp -= 1;
             }
         }
     };
